@@ -1,0 +1,166 @@
+@media (max-width: 850px) {
+  .bar-icons svg {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    top: 5rem;
+    height: 100vh;
+    right: 0;
+    background-color: rgb(36, 35, 35);
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 5rem;
+    padding-top: 0;
+    transition: all 1s;
+  }
+  .nav-links li {
+    padding: 10px 0;
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+    text-align: start;
+    border-bottom: 1px solid white;
+  }
+  .lenage-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .project-box {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .project-image {
+    width: 100%;
+  }
+  .prohect-name h1 {
+    margin: 10px 0;
+  }
+  .github-info {
+    padding: 20px;
+  }
+
+  .headr-git1 h1 {
+    font-size: 22px;
+  }
+
+  .git1-image img {
+    margin-bottom: 15px;
+  }
+  .github-info2 {
+    padding: 20px;
+  }
+
+  .headr-git2 h1 {
+    font-size: 20px;
+  }
+
+  .git2-image img {
+    margin-bottom: 15px;
+  }
+  .github-info,
+  .github-info2 {
+    padding: 20px;
+  }
+
+  .headr-git1 h1,
+  .headr-git2 h1 {
+    font-size: 22px;
+  }
+
+  .git1-image img,
+  .git2-image img {
+    margin-bottom: 15px;
+  }
+
+
+
+
+
+
+
+
+  .about-box {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .name-box h1 {
+    font-size: 28px;
+  }
+
+  .name-box p {
+    font-size: 18px;
+  }
+
+  .summery-box-about span {
+    font-size: 14px;
+  }
+
+  .profile-image img {
+    width: 120px;
+    height: 120px;
+  }
+
+
+
+
+
+
+}
+
+@media (max-width: 550px) {
+  .nav-links {
+    padding: 2rem;
+    padding-top: 0;
+  }
+  .addres-box {
+    flex-wrap: wrap;
+  }
+  .addres-box li {
+    margin-top: 10px;
+  }
+  .lenage-box {
+    padding: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  .project-header {
+    font-size: 1.5rem;
+  }
+  .demo-info {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .projects {
+    padding: 0;
+  }
+  .project-leng {
+    margin: 40px 0;
+  }
+  .footer-content p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .project-info {
+    max-width: 1000px;
+  }
+  .project-image img {
+    width: 600px;
+  }
+  .prohect-name,
+  .project-summery,
+  .demo-info {
+    margin: 0 0 50px 0;
+  }
+  .project-info h1 {
+    margin: 0;
+    font-size: 52px;
+  }
+  .project-summery p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+}

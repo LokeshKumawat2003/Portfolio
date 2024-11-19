@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.nav-head-box {
+  height: 5rem;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.nav-box {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 70%;
+}
+.img-logo {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.logo img {
+  border-radius: 50%;
+  width: 100%;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+.name-box li {
+  list-style: none;
+}
+.nav-links li:hover {
+  color: rgb(23, 214, 214);
+}
+
+.bar-icons svg {
+  color: white;
+  font-size: 1.8rem;
+  display: none;
+}
+
+.about-box {
+  margin-top: 4rem;
+  width: 100%;
+  background-color: #565555;
+  padding-bottom: 1rem;
+  /* display: flex; */
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease-out;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.profile-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image img:hover {
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+}
+
+.name-box {
+  padding: 1.8rem 0.85rem;
+  text-align: center;
+  color: white;
+}
+.name-box h1 span {
+  color: #00a8e1;
+  padding: 0 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+}
+
+.name-box p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #3a3838;
+  margin: 10px 0;
+}
+.name-box h1 {
+  color: black;
+}
+
+.summery-box-about {
+  width: 100%;
+  max-width: 965px;
+  text-align: center;
+  margin: auto;
+  padding: 30px 0px;
+  color: #070707;
+}
+
+.midiya-logo svg {
+  font-size: 2rem;
+  margin: 10px 15px;
+}
+
+.midiya-logo svg:hover {
+  color: #1bae9d;
+}
+.addres-box {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addres-box li {
+  list-style: none;
+  font-size: 1rem;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  color: #444;
+}
+.addres-box li svg {
+  font-size: 1.3rem;
+  margin: 1px 9px;
+}
+
+.about-logo svg {
+  font-size: 30px;
+  color: #333;
+  transition: transform 0.3s;
+}
+
+.about-logo svg:hover {
+  transform: scale(1.2);
+  color: #22bc8b;
+}
+
+.resume-box {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hover-button {
+  padding: 15px 36px;
+  font-size: 16px;
+  color: rgb(24, 24, 24);
+  background: linear-gradient(to right, #3e7696ea 50%, #5ea2c91b 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #33b5ff;
+  cursor: pointer;
+  transition: background-position 0.4s ease;
+}
+
+.hover-button:hover {
+  background-position: left bottom;
+  color: white;
+}
+
+.skill-and-tool {
+  margin-top: 110px;
+  width: 100%;
+}
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #565555;
+}
+.skill-and-tool {
+  transform: scale(0.5);
+  margin-top: 30px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.skill-and-tool.in-view {
+  transform: scale(1);
+  margin-top: 40px;
+}
+.lenage-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  row-gap: 30px;
+  box-shadow: 0 0 12px 0 rgba(165, 164, 164, 0.45);
+  max-width: 1000px;
+  margin: auto;
+  padding: 3rem;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+.lenage-name {
+  text-align: center;
+}
+.lenage-name p {
+  font-size: 1.2rem;
+  margin-top: 13px;
+  font-weight: 600;
+  color: #565555;
+}
+.lenage-name {
+  box-shadow: 0 0 10px 0 rgba(223, 221, 221, 0.418);
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+}
+.lenage-name:hover {
+  box-shadow: 0 0 10px 0 rgba(154, 153, 153, 0.418);
+}
+.npm {
+  height: 72%;
+}
+.lenage-name img {
+  width: 33%;
+}
+
+.lenage-name:hover img {
+  transform: scale(0.9);
+}
+
+.projects {
+  padding: 20px;
+  margin: auto;
+}
+.all-project {
+  padding: 10px;
+}
+.project-header h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: auto;
+  box-shadow: 0 0 12px 0 rgba(145, 142, 142, 0.632);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 1rem;
+  margin-top: 1.6rem;
+}
+.project-image {
+  width: 60%;
+}
+.project-image img {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.project-info {
+  max-width: 650px;
+}
+
+.project-info h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.project-summery p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.demo-info {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 736px;
+  height: 61px;
+}
+
+.hover-button2 {
+  padding: 13px 20px;
+  background-color: #1062b9;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hover-button2:hover {
+  background-color: #eef2f5;
+  color: black;
+}
+
+.project-leng img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 0;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-leng img:hover {
+  transform: translateY(-10px);
+  height: 40px;
+  width: 40px;
+}
+
+.project-box {
+  transform: scale(0.8);
+  transition: transform 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.project-box.in-view {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.github-info {
+  text-align: center;
+  background-color: rgba(245, 218, 178, 0.157);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(245, 218, 178, 0.157);
+  max-width: 800px;
+  width: 100%;
+}
+
+.headr-git1 h1 {
+  color: #000000;
+  font-size: 26px;
+  margin-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.git1-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+.github-info2:hover {
+  box-shadow: 0 0 12px 0 rgb(79, 78, 78);
+}
+.github-info:hover {
+  box-shadow: 0 0 12px 0 rgb(79, 78, 78);
+}
+.github2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin: 20px 0;
+  margin-top: 40px;
+}
+
+.github-info2 {
+  text-align: center;
+  background-color: rgba(245, 218, 178, 0.157);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+.headr-git2 h1 {
+  color: #383636;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.git2-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+}
+.github,
+.github2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin: 20px 0;
+  transition: transform 0.5s ease;
+}
+
+.github:hover,
+.github2:hover {
+  transform: scale(1.05);
+}
+
+.github-info,
+.github-info2 {
+  text-align: center;
+
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  width: 100%;
+}
+
+.headr-git1 h1,
+.headr-git2 h1 {
+  color: #ffffff;
+  font-size: 26px;
+  color: black;
+  margin-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.git1-image img,
+.git2-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+.git1-image img:hover,
+.git2-image img:hover {
+  transform: scale(1.08);
+  transition: transform 0.5s ease;
+}
+
+.footer {
+  background-color: #282828;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  border-top: 2px solid #444;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.footer-content a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: #32b9ae;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
