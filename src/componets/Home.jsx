@@ -69,7 +69,7 @@ const Home = () => {
   const section3Ref = useRef(null);
   const section4Ref = useRef(null);
 
-  // const [inViews, SetInView] = useState(false);
+
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -339,26 +339,106 @@ const Home = () => {
               </div>
               <div className="project-info">
                 <div className="prohect-name">
-                  <h1>swiftPay App</h1>
+                  <h1>pharmEasy App</h1>
                 </div>
                 <div className="project-summery">
                   <p>
-                    swiftPay is your all-in-one, secure payment application
-                    designed to simplify your financial transactions and elevate
-                    your money management experience. With a user-friendly
-                    interface and cutting-edge security features, swiftPay
-                    ensures hassle-free and worry-free payments. This was a
-                    group project which was built by me and my team in span of
-                    5-days using React, Redux, Styled component, CSS and
-                    Recharts.
+                  this is a pharmEasy web it is purchasing medicines for the this website I have done admin page with this application
                   </p>
                 </div>
                 <div className="demo-info">
                   <button className="hover-button2 hover-button">
-                    View Demo
+                   
+                    <a href="https://poetic-lebkuchen-6cf716.netlify.app/"> View Demo</a>
                   </button>
                   <button className="hover-button2 hover-button">
-                    View Source
+                    <a href="https://github.com/LokeshKumawat2003/pharmEasyServer"> View Source</a>
+                   
+                  </button>
+                  <div className="project-leng">
+                    <img
+                      src="https://engineering.grab.com/img/grabs-front-end-study-guide/react-logo.svg"
+                      alt=""
+                    />
+                    <img
+                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      alt=""
+                    />
+                    <img
+                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="project-box">
+              <div className="project-image">
+                <img
+                  src="https://yashuvaishnav.github.io/static/media/swiftPay.9ea4ed6e54417e4c79df.png"
+                  alt=""
+                />
+              </div>
+              <div className="project-info">
+                <div className="prohect-name">
+                  <h1>Pokemon App</h1>
+                </div>
+                <div className="project-summery">
+                  <p>
+                  this is a Pokemon website it has infinite scrolling and filtering functionality
+                  </p>
+                </div>
+                <div className="demo-info">
+                  <button className="hover-button2 hover-button">
+                    <a href="https://adorable-shortbread-c648ef.netlify.app/"> View Demo</a>
+                  </button>
+                  <button className="hover-button2 hover-button">
+                    <a href="https://github.com/LokeshKumawat2003/Pivot"> View Source</a>
+                   
+                  </button>
+                  <div className="project-leng">
+                    <img
+                      src="https://engineering.grab.com/img/grabs-front-end-study-guide/react-logo.svg"
+                      alt=""
+                    />
+                    <img
+                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      alt=""
+                    />
+                    <img
+                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="project-box">
+              <div className="project-image">
+                <img
+                  src="https://yashuvaishnav.github.io/static/media/swiftPay.9ea4ed6e54417e4c79df.png"
+                  alt=""
+                />
+              </div>
+              <div className="project-info">
+                <div className="prohect-name">
+                  <h1>multimart App</h1>
+                </div>
+                <div className="project-summery">
+                  <p>
+                  this is a multimart E-commerce website purchase your items
+                  </p>
+                </div>
+                <div className="demo-info">
+                  <button className="hover-button2 hover-button">
+                    <a href="https://incomparable-gelato-605962.netlify.app/">  View Demo</a>
+                  
+                  </button>
+                  <button className="hover-button2 hover-button">
+                    <a href="https://github.com/LokeshKumawat2003">  View Source</a>
+                  
                   </button>
                   <div className="project-leng">
                     <img
@@ -426,149 +506,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="project-box">
-              <div className="project-image">
-                <img
-                  src="https://yashuvaishnav.github.io/static/media/swiftPay.9ea4ed6e54417e4c79df.png"
-                  alt=""
-                />
-              </div>
-              <div className="project-info">
-                <div className="prohect-name">
-                  <h1>swiftPay App</h1>
-                </div>
-                <div className="project-summery">
-                  <p>
-                    swiftPay is your all-in-one, secure payment application
-                    designed to simplify your financial transactions and elevate
-                    your money management experience. With a user-friendly
-                    interface and cutting-edge security features, swiftPay
-                    ensures hassle-free and worry-free payments. This was a
-                    group project which was built by me and my team in span of
-                    5-days using React, Redux, Styled component, CSS and
-                    Recharts.
-                  </p>
-                </div>
-                <div className="demo-info">
-                  <button className="hover-button2 hover-button">
-                    View Demo
-                  </button>
-                  <button className="hover-button2 hover-button">
-                    View Source
-                  </button>
-                  <div className="project-leng">
-                    <img
-                      src="https://engineering.grab.com/img/grabs-front-end-study-guide/react-logo.svg"
-                      alt=""
-                    />
-                    <img
-                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
-                      alt=""
-                    />
-                    <img
-                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-box">
-              <div className="project-image">
-                <img
-                  src="https://yashuvaishnav.github.io/static/media/swiftPay.9ea4ed6e54417e4c79df.png"
-                  alt=""
-                />
-              </div>
-              <div className="project-info">
-                <div className="prohect-name">
-                  <h1>swiftPay App</h1>
-                </div>
-                <div className="project-summery">
-                  <p>
-                    swiftPay is your all-in-one, secure payment application
-                    designed to simplify your financial transactions and elevate
-                    your money management experience. With a user-friendly
-                    interface and cutting-edge security features, swiftPay
-                    ensures hassle-free and worry-free payments. This was a
-                    group project which was built by me and my team in span of
-                    5-days using React, Redux, Styled component, CSS and
-                    Recharts.
-                  </p>
-                </div>
-                <div className="demo-info">
-                  <button className="hover-button2 hover-button">
-                    View Demo
-                  </button>
-                  <button className="hover-button2 hover-button">
-                    View Source
-                  </button>
-                  <div className="project-leng">
-                    <img
-                      src="https://engineering.grab.com/img/grabs-front-end-study-guide/react-logo.svg"
-                      alt=""
-                    />
-                    <img
-                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
-                      alt=""
-                    />
-                    <img
-                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-box">
-              <div className="project-image">
-                <img
-                  src="https://yashuvaishnav.github.io/static/media/swiftPay.9ea4ed6e54417e4c79df.png"
-                  alt=""
-                />
-              </div>
-              <div className="project-info">
-                <div className="prohect-name">
-                  <h1>swiftPay App</h1>
-                </div>
-                <div className="project-summery">
-                  <p>
-                    swiftPay is your all-in-one, secure payment application
-                    designed to simplify your financial transactions and elevate
-                    your money management experience. With a user-friendly
-                    interface and cutting-edge security features, swiftPay
-                    ensures hassle-free and worry-free payments. This was a
-                    group project which was built by me and my team in span of
-                    5-days using React, Redux, Styled component, CSS and
-                    Recharts.
-                  </p>
-                </div>
-                <div className="demo-info">
-                  <button className="hover-button2 hover-button">
-                    View Demo
-                  </button>
-                  <button className="hover-button2 hover-button">
-                    View Source
-                  </button>
-                  <div className="project-leng">
-                    <img
-                      src="https://engineering.grab.com/img/grabs-front-end-study-guide/react-logo.svg"
-                      alt=""
-                    />
-                    <img
-                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
-                      alt=""
-                    />
-                    <img
-                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+          
           </div>
         </div>
 
