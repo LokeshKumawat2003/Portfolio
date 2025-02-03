@@ -1,0 +1,90 @@
+.skill-tag h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: rgb(36, 35, 35);
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.skill-lang {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.skill-preant {
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 14px 0px;
+  border-radius: 9px;
+  animation: slideUp 0.8s ease-in-out;
+}
+
+.skill-preant:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(123, 143, 210, 0.2);
+}
+
+.skill-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.skill-image img {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-image img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.skill-name p {
+  font-size: 1rem;
+  color: rgb(36, 35, 35);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .skill-lang {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-tag h1 {
+    font-size: 2rem;
+  }
+  .skill-lang {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,203 @@
+.about {
+  padding: 50px 8%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.heading {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.heading h2 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.heading span {
+  font-size: 1.1rem;
+  color: #6783e1;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.home-img-main {
+  flex: 1 1 350px;
+  text-align: center;
+}
+
+.home-img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1 1 450px;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+  padding: 20px;
+}
+
+.information {
+  margin-top: 20px;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.info-box i {
+  color: #0073b1;
+}
+
+.info-box a {
+  text-decoration: none;
+  color: #0073b1;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.git-box-info a {
+  color: black;
+}
+
+.info-gmail span,
+.info-gmail svg {
+  color: red;
+
+}
+.information{
+  line-height: 45px;
+}
+.info-gmail svg , .info-call svg,.info-box svg ,.git-box-info svg{
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+.info-call svg,
+.info-call span {
+  color: green;
+}
+
+.info-box a:hover {
+  color: #005582;
+}
+
+.resume-button {
+  background-color: #0073b1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.resume-button:hover {
+  background-color: #005582;
+}
+
+@media (max-width: 1024px) {
+  .heading h2 {
+    font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .info-box {
+    font-size: 1.1rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 40px 5%;
+  }
+
+  .heading {
+    margin-top: 60px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .home-img-main {
+    flex: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-img {
+    max-width: 250px;
+    width: 90%;
+  }
+
+  .about-text {
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .info-box {
+    justify-content: center;
+    font-size: 1rem;
+  }
+
+  .resume-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading h2 {
+    font-size: 1.8rem;
+  }
+
+  .heading span {
+    font-size: 1rem;
+  }
+
+  .home-img {
+    max-width: 200px;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+
+  .info-box {
+    font-size: 0.9rem;
+  }
+
+  .resume-button {
+    font-size: 0.85rem;
+    padding: 7px 14px;
+  }
+}

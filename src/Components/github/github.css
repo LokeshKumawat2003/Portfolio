@@ -1,0 +1,128 @@
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.github-info {
+  text-align: center;
+  background-color: rgba(245, 218, 178, 0.157);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(245, 218, 178, 0.157);
+  max-width: 800px;
+  width: 100%;
+}
+
+.headr-git1 h1 {
+  color: #000000;
+  font-size: 26px;
+  margin-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  
+}
+
+.git1-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+.github-info2:hover {
+  box-shadow: 0 0 12px 0 rgb(79, 78, 78);
+}
+.github-info:hover {
+  box-shadow: 0 0 12px 0 rgb(79, 78, 78);
+}
+.github2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin: 20px 0;
+  margin-top: 40px;
+}
+
+.github-info2 {
+  text-align: center;
+  background-color: rgba(245, 218, 178, 0.157);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+.headr-git2 h1 {
+  color: #383636;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.git2-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+}
+.github,
+.github2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 20px 0;
+  transition: transform 0.5s ease;
+}
+
+.github:hover,
+.github2:hover {
+  transform: scale(1.05);
+}
+
+.github-info,
+.github-info2 {
+  text-align: center;
+
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  width: 100%;
+}
+
+.headr-git1 h1,
+.headr-git2 h1 {
+  color: #ffffff;
+  font-size: 26px;
+  color: black;
+  margin-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.git1-image img,
+.git2-image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+.git1-image img:hover,
+.git2-image img:hover {
+  transform: scale(1.08);
+  transition: transform 0.5s ease;
+}

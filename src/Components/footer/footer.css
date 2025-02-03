@@ -1,0 +1,145 @@
+.footer2 {
+  text-align: center;
+  padding: 20px;
+
+  color: rgb(48, 46, 46);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.contact-box {
+  display: flex;
+
+  background: #f9f9f9;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  width: 100%;
+}
+
+.cotact-box1-info {
+  width: 100%;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.cotact-box1-info div {
+  align-items: center;
+  gap: 10px;
+  margin: 10px 10px;
+  font-size: 18px;
+  text-align: start;
+}
+
+.addres,
+.call,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.addres svg,
+.call svg,
+.email svg {
+  font-size: 1.5rem;
+}
+
+.address,
+.call-info a,
+.email-info a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.email-info a:hover,
+.call-info a:hover {
+  color: #007bff;
+}
+
+.contact-box2 {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box2 h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background: #154679;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #3269a3;
+}
+
+
+@media (max-width: 768px) {
+  .contact-box {
+    max-width: 90%;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .addres p,
+  .call p,
+  .email p {
+    text-align: center;
+    line-height: 30px;
+    color: black;
+  }
+ 
+  .contact-box2 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .cotact-box1-info div {
+    flex-direction: column;
+  }
+}
